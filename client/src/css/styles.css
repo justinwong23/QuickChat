@@ -433,11 +433,11 @@ form input[type=submit]:active {
     grid-template-rows: 58% auto;
     background-color: var(--login-box);
     height: 60vh;
-    width: 25vw;
+    width: 50%;
     border: 1px solid var(--primary-text);
     border-radius: 30px;
     box-shadow: 10px 10px var(--drop-shadow);
-    margin-left: 10em;
+    margin-left: 15%;
 }
 
 .login form {
@@ -532,8 +532,8 @@ form input[type=submit]:active {
     display: flex;
     flex-direction: column;
     background-color: var(--login-box);
-    height: 55vh;
-    width: 35vw;
+    height: 50vh;
+    width: 30vw;
     border: 1px solid var(--primary-text);
     border-radius: 30px;
     box-shadow: 10px 10px var(--drop-shadow);
@@ -553,7 +553,7 @@ form input[type=submit]:active {
 
 #password-changed {
     text-align: center;
-    margin-top: 18%;
+    margin-top: 15%;
 }
 
 .modal-content form {
@@ -612,9 +612,10 @@ form input[type=submit]:active {
     justify-content: center;
     background-color: var(--close-btn);
     height: 1.7em;
-    width: 1.7em;
+    min-width: 1.7em;
     border-radius: 100%;
     transition-duration: 0.25s;
+    margin-left: 1em;
 }
 
 .close-circle:hover, .close-circle:focus {
@@ -1190,4 +1191,265 @@ form input[type=submit]:active {
   
 .footer {
     margin-left: 50px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1700px) {
+
+    #password-changed {
+        margin: 20% 5% 0 5%;
+    }
+
+}
+
+@media only screen and (max-width: 1509px) {
+
+    .modal-content {
+        height: 57vh;
+        width: 30vw;
+    }
+
+    #password-changed {
+        margin: 25% 5% 0 5%;
+    }
+
+}
+
+@media only screen and (max-width: 1350px) {
+    
+    .adText h2 {
+        margin: 25% 15% 5% 17%;
+    }
+    
+    .login {
+        height: 60vh;
+        width: 70%;
+        margin-left: 10%;
+    }
+      
+    .modal-content {
+        height: 55vh;
+        width: 35vw;
+    }
+    
+    #password-changed {
+        margin: 30% 5% 0 5%;
+    }
+
+    .text-field {
+        grid-template-columns: 94% 1em auto;
+    }
+
+}
+
+@media only screen and (max-width: 1294px) { 
+
+    .modal-content {
+        height: 58vh;
+        width: 35vw;
+    }
+
+}
+
+@media only screen and (max-width: 1150px) { 
+
+    .text-field {
+        grid-template-columns: 90% 1em auto;
+    }
+
+    .modal-content {
+        height: 55vh;
+        width: 40vw;
+    }
+
+}
+
+@media only screen and (max-width: 900px) { 
+
+    .modal-content {
+        height: 60vh;
+        width: 45vw;
+    }
+
+}
+
+@media only screen and (max-width: 860px) { 
+
+    .modal-content {
+        width: 50vw;
+    }
+
+}
+
+@media only screen and (max-width: 600px) { 
+
+    .modal-content {
+        width: 60vw;
+    }
+
+}
+
+@media only screen and (max-height: 900px) {
+
+    .modal-content {
+        height: 55vh;
+        width: 30vw;
+    }
+
+    #password-changed {
+        margin: 20% 5% 0 5%;
+    }
+
+    @media only screen and (max-width: 1509px) {
+
+        .modal-content {
+            height: 60vh;
+        }
+
+        #password-changed {
+            margin: 25% 5% 0 5%;
+        }
+    
+    }
+
+    @media only screen and (max-width: 1400px) { 
+
+        .modal-content {
+            height: 55vh;
+            width: 40vw;
+        }
+
+        #password-changed {
+            margin: 20% 5% 0 5%;
+        }
+    
+    }
+
+    @media only screen and (max-width: 1132px) { 
+
+        .modal-content {
+            height: 60vh;
+        }
+
+        #password-changed {
+            margin: 30% 5% 0 5%;
+        }
+    
+    }
+
+    @media only screen and (max-width: 900px) { 
+
+        .modal-content {
+            width: 45vw;
+        }
+
+        #password-changed {
+            margin: 35% 5% 0 5%;
+        }
+    
+    }
+
+    @media only screen and (max-width: 800px) { 
+
+        .modal-content {
+            width: 55vw;
+        }
+
+        #password-changed {
+            margin: 30% 5% 0 5%;
+        }
+    
+    }
+
+    @media only screen and (max-width: 650px) { 
+
+        .modal-content {
+            width: 70vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 500px) { 
+
+        .modal-content {
+            width: 80vw;
+        }
+    
+    }
+
+}
+
+@media only screen and (max-height: 850px) {
+
+    .modal-content {
+        height: 55vh;
+        width: 35vw;
+    }
+
+    #password-changed {
+        margin: 17% 5% 0 5%;
+    }
+
+    @media only screen and (max-width: 1331px) { 
+
+        .modal-content {
+            height: 60vh;
+        }
+
+        #password-changed {
+            margin: 27% 5% 0 5%;
+        }
+    
+    }
+
+    @media only screen and (max-width: 1294px) { 
+
+        .modal-content {
+            height: 62vh;
+        }
+    
+    }
+
+    @media only screen and (max-width: 1050px) { 
+
+        .modal-content {
+            width: 45vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 800px) { 
+
+        .modal-content {
+            width: 55vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 620px) { 
+
+        .modal-content {
+            width: 65vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 525px) {
+
+        .modal-content {
+            width: 70vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 429px) { 
+
+        .modal-content {
+            height: 70vh;
+            width: 70vw;
+        }
+    
+    }
+
 }

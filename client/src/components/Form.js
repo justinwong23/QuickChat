@@ -56,7 +56,7 @@ const Form = function(props) {
 
         return () => {
 
-            socket.removeAllListeners("login");
+            // socket.removeAllListeners("login");
             socket.removeAllListeners("already_logged_in");
 
         };
