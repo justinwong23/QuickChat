@@ -1453,3 +1453,101 @@ form input[type=submit]:active {
     }
 
 }
+
+@media only screen and (max-height: 775px) {
+
+    .login {
+        height: 65vh;
+        width: 55%;
+        margin-left: 20%;
+    }
+
+    .modal-content {
+        height: 60vh;
+        width: 30vw;
+    }
+
+    #password-changed {
+        margin: 17% 5% 0 5%;
+    }
+
+    @media only screen and (max-width: 1509px) { 
+
+        .modal-content {
+            width: 35vw;
+        }
+
+        #password-changed {
+            margin: 18% 5% 0 5%;
+        }
+    
+    }
+
+    @media only screen and (max-width: 1331px) { 
+
+        .login {
+            width: 60%;
+            margin-left: 15%;
+        }
+
+        .modal-content {
+            width: 40vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 1132px) { 
+
+        .modal-content {
+            width: 50vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 1050px) { 
+
+        .login {
+            width: 70%;
+            margin-left: 5%;
+        }
+    
+    }
+
+    @media only screen and (max-width: 905px) { 
+
+        .modal-content {
+            width: 55vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 823px) { 
+
+        .modal-content {
+            width: 65vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 696px) {
+
+        .modal-content {
+            width: 70vw;
+        }
+    
+    }
+
+    @media only screen and (max-width: 647px) { 
+
+        .modal-content {
+            height: 70vh;
+            width: 70vw;
+        }
+
+        #password-changed {
+            margin: 27% 5% 0 5%;
+        }
+    
+    }
+
+}
